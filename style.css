@@ -1,0 +1,1397 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.tempur-pedic-wrapper { /* HTML5 display-role reset for older browsers */
+}
+
+.tempur-pedic-wrapper html,
+.tempur-pedic-wrapper body,
+.tempur-pedic-wrapper div,
+.tempur-pedic-wrapper span,
+.tempur-pedic-wrapper applet,
+.tempur-pedic-wrapper object,
+.tempur-pedic-wrapper iframe,
+.tempur-pedic-wrapper h1,
+.tempur-pedic-wrapper h2,
+.tempur-pedic-wrapper h3,
+.tempur-pedic-wrapper button.tablinks span,
+.tempur-pedic-wrapper h4,
+.tempur-pedic-wrapper h5,
+.tempur-pedic-wrapper h6,
+.tempur-pedic-wrapper p,
+.tempur-pedic-wrapper blockquote,
+.tempur-pedic-wrapper pre,
+.tempur-pedic-wrapper a,
+.tempur-pedic-wrapper abbr,
+.tempur-pedic-wrapper acronym,
+.tempur-pedic-wrapper address,
+.tempur-pedic-wrapper big,
+.tempur-pedic-wrapper cite,
+.tempur-pedic-wrapper code,
+.tempur-pedic-wrapper del,
+.tempur-pedic-wrapper dfn,
+.tempur-pedic-wrapper em,
+.tempur-pedic-wrapper img,
+.tempur-pedic-wrapper ins,
+.tempur-pedic-wrapper kbd,
+.tempur-pedic-wrapper q,
+.tempur-pedic-wrapper s,
+.tempur-pedic-wrapper samp,
+.tempur-pedic-wrapper small,
+.tempur-pedic-wrapper strike,
+.tempur-pedic-wrapper strong,
+.tempur-pedic-wrapper sub,
+.tempur-pedic-wrapper sup,
+.tempur-pedic-wrapper tt,
+.tempur-pedic-wrapper var,
+.tempur-pedic-wrapper b,
+.tempur-pedic-wrapper u,
+.tempur-pedic-wrapper i,
+.tempur-pedic-wrapper center,
+.tempur-pedic-wrapper dl,
+.tempur-pedic-wrapper dt,
+.tempur-pedic-wrapper dd,
+.tempur-pedic-wrapper ol,
+.tempur-pedic-wrapper ul,
+.tempur-pedic-wrapper li,
+.tempur-pedic-wrapper fieldset,
+.tempur-pedic-wrapper form,
+.tempur-pedic-wrapper label,
+.tempur-pedic-wrapper legend,
+.tempur-pedic-wrapper table,
+.tempur-pedic-wrapper caption,
+.tempur-pedic-wrapper tbody,
+.tempur-pedic-wrapper tfoot,
+.tempur-pedic-wrapper thead,
+.tempur-pedic-wrapper tr,
+.tempur-pedic-wrapper th,
+.tempur-pedic-wrapper td,
+.tempur-pedic-wrapper article,
+.tempur-pedic-wrapper aside,
+.tempur-pedic-wrapper canvas,
+.tempur-pedic-wrapper details,
+.tempur-pedic-wrapper embed,
+.tempur-pedic-wrapper figure,
+.tempur-pedic-wrapper figcaption,
+.tempur-pedic-wrapper footer,
+.tempur-pedic-wrapper header,
+.tempur-pedic-wrapper hgroup,
+.tempur-pedic-wrapper menu,
+.tempur-pedic-wrapper nav,
+.tempur-pedic-wrapper output,
+.tempur-pedic-wrapper ruby,
+.tempur-pedic-wrapper section,
+.tempur-pedic-wrapper summary,
+.tempur-pedic-wrapper time,
+.tempur-pedic-wrapper mark,
+.tempur-pedic-wrapper audio,
+.tempur-pedic-wrapper video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.tempur-pedic-wrapper article,
+.tempur-pedic-wrapper aside,
+.tempur-pedic-wrapper details,
+.tempur-pedic-wrapper figcaption,
+.tempur-pedic-wrapper figure,
+.tempur-pedic-wrapper footer,
+.tempur-pedic-wrapper header,
+.tempur-pedic-wrapper hgroup,
+.tempur-pedic-wrapper menu,
+.tempur-pedic-wrapper nav,
+.tempur-pedic-wrapper section {
+	display: block;
+}
+
+.tempur-pedic-wrapper body {
+	line-height: 1;
+}
+
+.tempur-pedic-wrapper ol,
+.tempur-pedic-wrapper ul {
+	list-style: none;
+}
+
+.tempur-pedic-wrapper blockquote,
+.tempur-pedic-wrapper q {
+	quotes: none;
+}
+
+.tempur-pedic-wrapper blockquote:before,
+.tempur-pedic-wrapper blockquote:after {
+	content: '';
+	content: none;
+}
+
+.tempur-pedic-wrapper q:before,
+.tempur-pedic-wrapper q:after {
+	content: '';
+	content: none;
+}
+
+.tempur-pedic-wrapper table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.tempur-pedic-wrapper {
+	font-size: 18px;
+	position: relative;
+	max-width: 80em;
+	margin: auto;
+}
+
+.tempur-pedic-wrapper .container {
+	max-width: 70em;
+	margin: auto;
+	padding: 0 1em;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.tempur-pedic-wrapper section {
+	margin-bottom: 108px;
+	font-size: 14.4px;
+}
+
+.tempur-pedic-wrapper {
+	font-size: 18px;
+}
+
+.tempur-pedic-wrapper h1,
+.tempur-pedic-wrapper h2,
+.tempur-pedic-wrapper h3,
+.tempur-pedic-wrapper button.tablinks span,
+.tempur-pedic-wrapper h4,
+.tempur-pedic-wrapper h5,
+.tempur-pedic-wrapper h6,
+.tempur-pedic-wrapper p,
+.tempur-pedic-wrapper li,
+.tempur-pedic-wrapper a.btn,
+.tempur-pedic-wrapper button {
+	color: #3C4652;
+	font-family: "gotham", helvetica, arial, sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.2;
+	text-align: center;
+	margin-bottom: 0em;
+}
+
+.tempur-pedic-wrapper h1.text-left,
+.tempur-pedic-wrapper h2.text-left,
+.tempur-pedic-wrapper h3.text-left,
+.tempur-pedic-wrapper button.tablinks span.text-left,
+.tempur-pedic-wrapper h4.text-left,
+.tempur-pedic-wrapper h5.text-left,
+.tempur-pedic-wrapper h6.text-left,
+.tempur-pedic-wrapper p.text-left,
+.tempur-pedic-wrapper li.text-left,
+.tempur-pedic-wrapper a.text-left.btn,
+.tempur-pedic-wrapper button.text-left {
+	text-align: left !important;
+}
+
+.tempur-pedic-wrapper h1.white,
+.tempur-pedic-wrapper h2.white,
+.tempur-pedic-wrapper h3.white,
+.tempur-pedic-wrapper button.tablinks span.white,
+.tempur-pedic-wrapper h4.white,
+.tempur-pedic-wrapper h5.white,
+.tempur-pedic-wrapper h6.white,
+.tempur-pedic-wrapper p.white,
+.tempur-pedic-wrapper li.white,
+.tempur-pedic-wrapper a.white.btn,
+.tempur-pedic-wrapper button.white {
+	color: #fff !important;
+}
+
+.tempur-pedic-wrapper h1 b,
+.tempur-pedic-wrapper h2 b,
+.tempur-pedic-wrapper h3 b,
+.tempur-pedic-wrapper button.tablinks span b,
+.tempur-pedic-wrapper h4 b,
+.tempur-pedic-wrapper h5 b,
+.tempur-pedic-wrapper h6 b,
+.tempur-pedic-wrapper p b,
+.tempur-pedic-wrapper li b,
+.tempur-pedic-wrapper a.btn b,
+.tempur-pedic-wrapper button b {
+	font-weight: 500;
+}
+
+.tempur-pedic-wrapper sup {
+	vertical-align: top;
+	font-size: 0.5em;
+}
+
+.tempur-pedic-wrapper h1 {
+	font-size: 2.3em;
+	font-weight: 500;
+	margin-bottom: .5em;
+	text-transform: uppercase;
+}
+
+.tempur-pedic-wrapper h2 {
+	font-size: 1.8em;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	padding-bottom: 0.5em;
+}
+
+.tempur-pedic-wrapper h3,
+.tempur-pedic-wrapper button.tablinks span {
+	font-size: 1.8em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.tempur-pedic-wrapper h3.breeze-logotype,
+.tempur-pedic-wrapper button.tablinks span.breeze-logotype {
+	text-transform: none;
+	font-weight: 500;
+}
+
+.tempur-pedic-wrapper h3 sup,
+.tempur-pedic-wrapper button.tablinks span sup {
+	font-size: 0.5em;
+	vertical-align: text-top;
+}
+
+.tempur-pedic-wrapper h4 {
+	font-size: 1.3em;
+}
+
+.tempur-pedic-wrapper h4.tab-text__subhead {
+	color: #fff;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.tempur-pedic-wrapper h4.tab-text__flat-feature {
+	font-size: 1em;
+}
+
+.tempur-pedic-wrapper h5 {
+	font-size: 0.8em;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+}
+
+.tempur-pedic-wrapper h5.available-in {
+	color: #fff;
+	font-size: 0.7em;
+	font-style: italic;
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: 0.5em;
+}
+
+.tempur-pedic-wrapper h6 {
+	color: #C9CED1;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+.tempur-pedic-wrapper h6.sleep-benefits__disclaimer {
+	font-style: italic;
+	text-transform: none;
+}
+
+.tempur-pedic-wrapper h6.disclaimer {
+	text-transform: none;
+	text-align: left;
+}
+
+.tempur-pedic-wrapper h6.disclaimer--mobile {
+	display: none;
+}
+
+.tempur-pedic-wrapper h6.disclaimer--desktop {
+	display: block;
+}
+
+.tempur-pedic-wrapper p {
+	max-width: 40em;
+	text-align: left;
+	line-height: 1.66;
+	margin-bottom: 1em;
+}
+
+.tempur-pedic-wrapper p.subhead {
+	font-size: 1.5em;
+	max-width: 40em;
+	margin: auto;
+	text-align: center;
+	line-height: 1.66;
+	margin-bottom: 72px;
+}
+
+.tempur-pedic-wrapper p b {
+	font-weight: 500;
+}
+
+.tempur-pedic-wrapper .breeze-logotype {
+	text-transform: none;
+}
+
+.tempur-pedic-wrapper a {
+	color: #9CC3D1;
+}
+
+.tempur-pedic-wrapper span.no-break {
+	white-space: nowrap;
+}
+
+.tempur-pedic-wrapper img {
+	display: block;
+}
+
+.tempur-pedic-wrapper img.recommend {
+	margin-bottom: 72px;
+}
+
+.tempur-pedic-wrapper .responsive-img {
+	width: 100%;
+}
+
+.tempur-pedic-wrapper a.btn {
+	border-radius: 0.25em;
+	color: #fff;
+	cursor: pointer !important;
+	display: inline-block;
+	font-weight: 500;
+	margin: auto;
+	padding: 0.5em 1em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: 0.15s ease-in-out;
+	transition: 0.15s ease-in-out;
+}
+
+.tempur-pedic-wrapper a.btn:hover {
+	background-color: #fff;
+}
+
+.tempur-pedic-wrapper a.blade {
+	display: block;
+}
+
+.tempur-pedic-wrapper button:hover {
+	cursor: pointer;
+}
+
+.tempur-pedic-wrapper div.overlay {
+	position: relative;
+	background: #3C4652;
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 2em;
+}
+
+.tempur-pedic-wrapper div.overlay h1,
+.tempur-pedic-wrapper div.overlay h2,
+.tempur-pedic-wrapper div.overlay h3,
+.tempur-pedic-wrapper div.overlay button.tablinks span,
+.tempur-pedic-wrapper button.tablinks div.overlay span,
+.tempur-pedic-wrapper div.overlay p {
+	color: #fff;
+}
+
+.tempur-pedic-wrapper section.life-changing-sleep {
+	position: relative;
+	background-image: url("/images/promo-banners/tempur/img/2x/life-changing-sleep@2x.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+.tempur-pedic-wrapper section.life-changing-sleep div.overlay {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.tempur-pedic-wrapper section.life-changing-sleep .text {
+	max-width: 60em;
+	margin: auto;
+}
+
+.tempur-pedic-wrapper .available-in {
+	list-style-type: none;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .available-in li {
+	display: inline-block;
+	font-size: 0.9em;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+	margin: 0 0.5em 0.5em 0;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .available-in li b {
+	font-weight: 500;
+}
+
+.tempur-pedic-wrapper .available-in li a {
+	text-decoration: none;
+	color: #fff;
+	padding-left: 0.5em;
+	border-left: 4px solid #fff;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.tempur-pedic-wrapper .available-in li a.active {
+	padding-left: 0.5em;
+	color: #006481;
+	border-left: 4px solid #006481;
+}
+
+.tempur-pedic-wrapper .available-in li a sup {
+	vertical-align: top;
+	font-size: 0.8em;
+}
+
+.tempur-pedic-wrapper li button.gray:before {
+	background-color: #fff;
+	border-color: #9CC3D1;
+}
+
+.tempur-pedic-wrapper li.slick-active button.gray:before {
+	background-color: #9CC3D1;
+	border-color: #9CC3D1;
+}
+
+.tempur-pedic-wrapper { /********************
+GENERAL STYLE
+********************/ /* TP Colors */ /********************
+ACCORDION DISPLAY STYLE
+********************/ /* Tab menu */ /********************
+TAB DISPLAY STYLE
+********************/ /********************
+TAB CONTENT STYLE
+********************/
+}
+
+.tempur-pedic-wrapper button.tablinks.base,
+.tempur-pedic-wrapper .bases-tab-content {
+	background-color: #006481;
+}
+
+.tempur-pedic-wrapper button.tablinks.pillow,
+.tempur-pedic-wrapper .pillows-tab-content,
+.tempur-pedic-wrapper button.tablinks.breeze-pillow,
+.tempur-pedic-wrapper .breeze-pillows-tab-content {
+	background-color: #006481;
+	margin-right: 1em;
+}
+
+.tempur-pedic-wrapper button.tablinks.adapt,
+.tempur-pedic-wrapper .series-container div#Adapt {
+	background-color: #3C4652;
+}
+
+.tempur-pedic-wrapper button.tablinks.proadapt,
+.tempur-pedic-wrapper .series-container div#ProAdapt {
+	background-color: #3C4652;
+}
+
+.tempur-pedic-wrapper button.tablinks.luxe,
+.tempur-pedic-wrapper .series-container div#LuxeAdapt {
+	background-color: #C9CED1;
+}
+
+.tempur-pedic-wrapper button.tablinks.breeze,
+.tempur-pedic-wrapper .series-container div#ProBreeze,
+.tempur-pedic-wrapper .series-container div#LuxeBreeze {
+	background-color: #6ECEEA;
+}
+
+.tempur-pedic-wrapper .tab-text {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 1em;
+}
+
+.tempur-pedic-wrapper .tab-text p {
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.tempur-pedic-wrapper .tab-text img {
+	height: auto;
+	display: block;
+}
+
+.tempur-pedic-wrapper .tab-container {
+	margin-bottom: 1em;
+}
+
+.tempur-pedic-wrapper #tab-container--bases {
+	font-size: 80%;
+}
+
+.tempur-pedic-wrapper .accordion {
+	margin-bottom: 1em;
+}
+
+.tempur-pedic-wrapper .tabs-menu {
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .tablinks {
+	border: none;
+	font-size: .75rem;
+	margin: 0;
+	outline: none;
+	padding: 1em;
+	-webkit-transition: none !important;
+	transition: none !important;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .tablinks .breeze-logotype {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	height: 1.2em;
+	margin: auto;
+}
+
+.tempur-pedic-wrapper button.tablinks span {
+	font-size: 1.5em;
+	text-transform: none;
+}
+
+.tempur-pedic-wrapper .tab-content {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
+	height: auto;
+	padding: 2em;
+	width: 100%;
+	display: none;
+}
+
+.tempur-pedic-wrapper .tab-content img {
+	display: block;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.tempur-pedic-wrapper .tab-content p {
+	color: #fff;
+}
+
+.tempur-pedic-wrapper .tab-content a {
+	border: none;
+	outline: none;
+	padding: 1em 2em;
+}
+
+.tempur-pedic-wrapper .tab-content__h2,
+.tempur-pedic-wrapper .tab-content__h4 {
+	color: #fff;
+	text-align: left;
+}
+
+.tempur-pedic-wrapper .tab-content__h2 {
+	font-weight: 300;
+	text-transform: none;
+}
+
+.tempur-pedic-wrapper .tab-content__h2 b {
+	font-weight: 500;
+}
+
+.tempur-pedic-wrapper .tab-text p.tab-content__feature {
+	margin-bottom: .75em;
+}
+
+.tempur-pedic-wrapper div.flex-column {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.tempur-pedic-wrapper img.remote-img {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto 2em;
+	width: 50%;
+}
+
+.tempur-pedic-wrapper #LuxeAdapt div.tab-text h4.tab-text__subhead,
+.tempur-pedic-wrapper #LuxeAdapt div.tab-text p,
+.tempur-pedic-wrapper #LuxeAdapt div.tab-text h5.available-in,
+.tempur-pedic-wrapper #LuxeAdapt div.tab-text div.available-in li,
+.tempur-pedic-wrapper #ProBreeze div.tab-text h4.tab-text__subhead,
+.tempur-pedic-wrapper #ProBreeze div.tab-text p,
+.tempur-pedic-wrapper #ProBreeze div.tab-text h5.available-in,
+.tempur-pedic-wrapper #ProBreeze div.tab-text div.available-in li,
+.tempur-pedic-wrapper #LuxeBreeze div.tab-text h4.tab-text__subhead,
+.tempur-pedic-wrapper #LuxeBreeze div.tab-text p,
+.tempur-pedic-wrapper #LuxeBreeze div.tab-text h5.available-in,
+.tempur-pedic-wrapper #LuxeBreeze div.tab-text div.available-in li {
+	color: #3C4652;
+}
+
+.tempur-pedic-wrapper section.pillows-tabs,
+.tempur-pedic-wrapper section.breeze-pillows-tabs {
+	position: relative;
+	margin-bottom: 0;
+}
+
+.tempur-pedic-wrapper section.pillows-tabs .breeze-logotype,
+.tempur-pedic-wrapper section.breeze-pillows-tabs .breeze-logotype {
+	display: inline-block;
+	height: 1.6rem;
+	margin-right: .25rem;
+}
+
+.tempur-pedic-wrapper .price {
+	margin: 0 0 1em;
+}
+
+.tempur-pedic-wrapper .price .price__label {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.tempur-pedic-wrapper .price .price__number {
+	font-size: 2em;
+	font-weight: 700;
+	margin: 0;
+}
+
+.tempur-pedic-wrapper .price .price__number sup {
+	position: relative;
+	vertical-align: text-top;
+	top: -.25em;
+}
+
+.tempur-pedic-wrapper section.cover {
+	position: relative;
+	width: 100%;
+	margin-bottom: 162px;
+}
+
+.tempur-pedic-wrapper section.cover h1,
+.tempur-pedic-wrapper section.cover h2,
+.tempur-pedic-wrapper section.cover h3,
+.tempur-pedic-wrapper section.cover button.tablinks span,
+.tempur-pedic-wrapper button.tablinks section.cover span,
+.tempur-pedic-wrapper section.cover h4,
+.tempur-pedic-wrapper section.cover p,
+.tempur-pedic-wrapper section.cover p.subhead,
+.tempur-pedic-wrapper section.cover img[alt] {
+	color: #fff;
+	max-width: 70em;
+	text-align: center;
+}
+
+.tempur-pedic-wrapper section.cover img.tp-logo {
+	display: block;
+	width: 10em;
+	z-index: 30;
+	position: absolute;
+	padding: 2em 0em;
+}
+
+.tempur-pedic-wrapper div.mobile-img--container { /*height: 40vh;*/
+	overflow: hidden;
+}
+
+.tempur-pedic-wrapper section.cover > img.mobile-img {
+	position: relative;
+	top: 0em;
+	z-index: 0;
+}
+
+.tempur-pedic-wrapper .overlay__intro {
+	margin-bottom: 4em;
+}
+
+.tempur-pedic-wrapper .jdpower img {
+	margin: 4em auto 0;
+}
+
+.tempur-pedic-wrapper ul.features {
+	margin: auto;
+}
+
+.tempur-pedic-wrapper li.features__list-item {
+	margin-bottom: 36px;
+	margin: 0 auto 2em;
+	max-width: 35em;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper img.feature-icon {
+	position: relative;
+	width: 5em;
+	margin: auto;
+	margin-bottom: 1em;
+	display: block;
+}
+
+.tempur-pedic-wrapper section.sleep-benefits {
+	position: relative;
+	padding: 1em;
+	margin-bottom: 72px;
+}
+
+.tempur-pedic-wrapper section.sleep-benefits p.subhead {
+	max-width: 35em;
+}
+
+.tempur-pedic-wrapper .sleep-benefits__img {
+	margin-bottom: 3em;
+}
+
+.tempur-pedic-wrapper .sleep-benefits__facts {
+	display: block;
+	width: 100%;
+	max-width: 60em;
+	margin: auto;
+}
+
+.tempur-pedic-wrapper .sleep-benefits__facts li {
+	margin-bottom: 1.5em;
+}
+
+.tempur-pedic-wrapper .sleep-benefits__facts p {
+	margin-bottom: 0.25em;
+}
+
+.tempur-pedic-wrapper .sleep-benefits__facts h6 {
+	text-align: left;
+}
+
+.tempur-pedic-wrapper .sleep-benefits__facts h6:before {
+	content: "> ";
+}
+
+.tempur-pedic-wrapper .series {
+	margin-bottom: 126px;
+}
+
+.tempur-pedic-wrapper .series .content {
+	padding: 20em;
+}
+
+.tempur-pedic-wrapper .series .content p {
+	color: #fff;
+	padding-bottom: 1em;
+}
+
+.tempur-pedic-wrapper div.tab-content {
+	position: relative;
+	overflow: hidden;
+}
+
+.tempur-pedic-wrapper img.circle-graphic {
+	width: 15em;
+	position: absolute;
+	right: -2em;
+	bottom: -4em;
+	overflow: hidden;
+	opacity: 0.15;
+}
+
+.tempur-pedic-wrapper .tab-content--smart-base {
+	background-image: url("/images/promo-banners/tempur/img/2x/sleep-tracker-bg@2x.jpg");
+	background-color: #231f20;
+	background-position: center;
+	background-size: cover;
+}
+
+.tempur-pedic-wrapper button.tablinks.base {
+	font-size: .9em;
+}
+
+.tempur-pedic-wrapper button.tablinks.base.sleep-tracker {
+	background-color: #231f20;
+}
+
+.tempur-pedic-wrapper .available-in {
+	list-style-type: none;
+	margin-top: .5em;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .available-in li {
+	display: inline-block;
+	font-size: .9em;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+	margin: 0 .5em .5em 0;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .available-in li.available-in--firm {
+	padding-left: .5em;
+	border-left: 4px solid #FF6C0C;
+}
+
+.tempur-pedic-wrapper .available-in li.available-in--medium {
+	padding-left: .5em;
+	border-left: 4px solid #72B1C8;
+}
+
+.tempur-pedic-wrapper .available-in li.available-in--soft {
+	padding-left: .5em;
+	border-left: 4px solid #2F5F93;
+}
+
+.tempur-pedic-wrapper .available-in li a {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	padding-left: .5em;
+	border-left: 4px solid #fff;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.tempur-pedic-wrapper .available-in li a sup {
+	vertical-align: top;
+	font-size: .8em;
+}
+
+.tempur-pedic-wrapper .available-in li b {
+	font-weight: 500;
+}
+
+.tempur-pedic-wrapper li button.gray:before {
+	background-color: #fff;
+	border-color: #9CC3D1;
+}
+
+.tempur-pedic-wrapper li.slick-active button.gray:before {
+	background-color: #9CC3D1;
+	border-color: #9CC3D1;
+}
+
+.tempur-pedic-wrapper .pillows-tab-content section {
+	display: block;
+}
+
+.tempur-pedic-wrapper .pillows-tab-content section .image-carousel-container {
+	display: block;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper section.pillows-tabs {
+	margin-bottom: 6em;
+}
+
+.tempur-pedic-wrapper .slick-dots {
+	bottom: 3em;
+	z-index: 30;
+}
+
+.tempur-pedic-wrapper .slick-dots li button:before {
+	color: transparent;
+	font-size: 14px;
+	opacity: 1;
+	border: 1px solid #fff;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+}
+
+.tempur-pedic-wrapper .slick-dots li {
+	margin-right: 0.5em;
+}
+
+.tempur-pedic-wrapper .slick-dots li:last-child {
+	margin-right: 0;
+}
+
+.tempur-pedic-wrapper .slick-dots li.slick-active button:before {
+	background-color: #fff;
+	opacity: 1;
+}
+
+.tempur-pedic-wrapper .slick-dotted {
+	margin-bottom: 0;
+}
+
+.tempur-pedic-wrapper .slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
+
+.tempur-pedic-wrapper li button.gray:before {
+	background-color: #fff;
+	border-color: #9CC3D1;
+}
+
+.tempur-pedic-wrapper li.slick-active button.gray:before {
+	background-color: #9CC3D1;
+	border-color: #9CC3D1;
+}
+
+.tempur-pedic-wrapper .content {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.tempur-pedic-wrapper .content .content-carousel-container {
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .content .pillow-description {
+	display: none;
+	margin-right: auto;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .content .pillow-description .pillow-description__h4,
+.tempur-pedic-wrapper .content .pillow-description .pillow-description__h3,
+.tempur-pedic-wrapper .content .pillow-description .pillow-description__feature {
+	color: #fff;
+	text-align: left;
+}
+
+.tempur-pedic-wrapper .content .pillow-description .pillow-description__h3 {
+	margin-bottom: .5em;
+}
+
+.tempur-pedic-wrapper .content .pillow-description .pillow-description__feature {
+	margin-bottom: 1em;
+}
+
+.tempur-pedic-wrapper .content .visible {
+	display: block;
+}
+
+.active {
+	height: 7em;
+	margin-bottom: 0;
+	margin-left: -3px;
+	padding-bottom: 3em;
+}
+
+@media all and (min-width: 45em) {
+
+.tempur-pedic-wrapper section {
+	font-size: 18px;
+}
+
+.tempur-pedic-wrapper h1 {
+	font-size: 2.88em;
+}
+
+.tempur-pedic-wrapper h2 {
+	font-size: 1.95em;
+}
+
+.tempur-pedic-wrapper h6.disclaimer--mobile {
+	display: block;
+}
+
+.tempur-pedic-wrapper h6.disclaimer--desktop {
+	display: none;
+}
+
+.tempur-pedic-wrapper p.subhead {
+	font-size: 1.8em;
+}
+
+.tempur-pedic-wrapper div.overlay {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.tempur-pedic-wrapper section.life-changing-sleep {
+	height: 60em;
+}
+
+.tempur-pedic-wrapper .tabs-menu {
+	font-size: 90%;
+}
+
+.tempur-pedic-wrapper button.tablinks span {
+	-webkit-transform: skew(18deg);
+	transform: skew(18deg);
+}
+
+.tempur-pedic-wrapper .bases-tab-menu .flex-column {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.tempur-pedic-wrapper img.remote-img {
+	margin: auto;
+	width: 20em;
+}
+
+.tempur-pedic-wrapper section.pillows-tabs .breeze-logotype,
+.tempur-pedic-wrapper section.breeze-pillows-tabs .breeze-logotype {
+	height: 2.4rem;
+}
+
+.tempur-pedic-wrapper section.cover {
+	background: url("/images/promo-banners/tempur/img/2x/cover@2x.jpg");
+	background-size: cover;
+	background-position: top center;
+}
+
+.tempur-pedic-wrapper section.cover h1 {
+	margin-top: 3em;
+}
+
+.tempur-pedic-wrapper section.cover h1,
+.tempur-pedic-wrapper section.cover h2,
+.tempur-pedic-wrapper section.cover h3,
+.tempur-pedic-wrapper section.cover button.tablinks span,
+.tempur-pedic-wrapper button.tablinks section.cover span,
+.tempur-pedic-wrapper section.cover h4,
+.tempur-pedic-wrapper section.cover p,
+.tempur-pedic-wrapper section.cover p.subhead,
+.tempur-pedic-wrapper section.cover img[alt] {
+	text-align: left !important;
+}
+
+.tempur-pedic-wrapper section.cover img.tp-logo {
+	width: 17.5em;
+}
+
+.tempur-pedic-wrapper div.mobile-img--container {
+	display: none;
+}
+
+.tempur-pedic-wrapper .mobile-img {
+	display: none;
+}
+
+.tempur-pedic-wrapper .jdpower {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	padding-left: 2em;
+}
+
+.tempur-pedic-wrapper .jdpower img {
+	margin: 0;
+}
+
+.tempur-pedic-wrapper li.features__list-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	padding: 0;
+}
+
+.tempur-pedic-wrapper img.feature-icon {
+	width: 2.8em;
+	margin-top: -0.3em;
+	margin-bottom: auto;
+	margin-right: 1em;
+}
+
+.tempur-pedic-wrapper .series .content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	font-size: 115%;
+}
+
+.tempur-pedic-wrapper .series .content p {
+	margin-bottom: 0.5em;
+	width: 70%;
+}
+
+.tempur-pedic-wrapper .series .content > img {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 20%;
+	margin-left: 10%;
+}
+
+.tempur-pedic-wrapper img.circle-graphic {
+	width: 20em;
+	right: -4em;
+	bottom: -8em;
+}
+
+}
+
+@media all and (min-width: 60em) {
+
+.tempur-pedic-wrapper section {
+	margin-bottom: 180px;
+}
+
+.tempur-pedic-wrapper h6.disclaimer--mobile {
+	display: none;
+}
+
+.tempur-pedic-wrapper h6.disclaimer--desktop {
+	display: block;
+}
+
+.tempur-pedic-wrapper .tab-text {
+	width: 38%;
+}
+
+.tempur-pedic-wrapper .tabs-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 90%;
+	margin: auto;
+}
+
+.tempur-pedic-wrapper .tablinks {
+	-ms-flex-line-pack: start;
+	align-content: flex-start;
+	border-radius: 0;
+	bottom: -1px;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 5em;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	max-width: 23%;
+	position: relative;
+	-webkit-transform: skew(-18deg);
+	transform: skew(-18deg);
+	width: 18%;
+}
+
+.tempur-pedic-wrapper .tablinks.active {
+	height: 7em;
+	margin-bottom: 0;
+	margin-left: -3px;
+	padding-bottom: 3em;
+}
+
+.tempur-pedic-wrapper .tablinks .breeze-logotype {
+	height: .9em;
+	-webkit-transform: skew(18deg);
+	transform: skew(18deg);
+}
+
+.tempur-pedic-wrapper button.tablinks span {
+	font-size: 1.2em;
+}
+
+.tempur-pedic-wrapper .bases-tab-menu button.tablinks {
+	width: 23%;
+}
+
+.tempur-pedic-wrapper .tab-content .flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-line-pack: center;
+	align-content: center;
+}
+
+.tempur-pedic-wrapper .series-container img.series-img {
+	display: block;
+	width: 60%;
+	height: 100%;
+	margin-bottom: 0;
+}
+
+.tempur-pedic-wrapper img.remote-img {
+	margin: 2em auto;
+	padding: 0;
+	width: 15em;
+}
+
+.tempur-pedic-wrapper .overlay__intro {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.tempur-pedic-wrapper .jdpower {
+	border-left: 1px solid #fff;
+}
+
+.tempur-pedic-wrapper ul.features {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: column wrap;
+	flex-flow: column wrap;
+	width: 100%;
+	max-width: 70em;
+	height: 32em;
+}
+
+.tempur-pedic-wrapper li.features__list-item {
+	width: 45%;
+}
+
+.tempur-pedic-wrapper li.features__list-item:nth-child(3),
+.tempur-pedic-wrapper li.features__list-item:last-child {
+	margin-left: 10%;
+}
+
+.tempur-pedic-wrapper section.sleep-benefits p.subhead {
+	margin-bottom: 0.5em;
+}
+
+.tempur-pedic-wrapper .sleep-benefits__facts {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.tempur-pedic-wrapper .sleep-benefits__facts ul {
+	width: 48%;
+}
+
+.tempur-pedic-wrapper .series .content {
+	font-size: 80%;
+	margin-left: 0.5em;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.tempur-pedic-wrapper .series .content p {
+	font-size: 90%;
+	margin-bottom: 0em;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .series .content > img {
+	display: block;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 14em;
+	margin: auto;
+}
+
+.tempur-pedic-wrapper .pillows-tab-content section {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	height: auto;
+	width: 100%;
+}
+
+.tempur-pedic-wrapper .pillows-tab-content section .image-carousel-container {
+	width: 60%;
+}
+
+.tempur-pedic-wrapper .content .content-carousel-container {
+	width: 30%;
+}
+
+}
+
+@media all and (min-width: 80em) {
+
+.tempur-pedic-wrapper #tab-container--bases {
+	font-size: 100%;
+}
+
+.tempur-pedic-wrapper .tabs-menu {
+	font-size: 100%;
+}
+
+.tempur-pedic-wrapper .series .content {
+	font-size: 100%;
+}
+
+.tempur-pedic-wrapper img.circle-graphic {
+	width: 24em;
+}
+
+}
+</style>
